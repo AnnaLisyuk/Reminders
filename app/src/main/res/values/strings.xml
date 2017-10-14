@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Reminders</string>
+
+    <string name="create">Create</string>
+    <string name="delete_all">Delete all</string>
+    <string name="notifications">Notifications</string>
+
+    <string-array name="settings_switch">
+        <item>Sound</item>
+        <item>Vibrate</item>
+    </string-array>
+
+    <string name="reminders_listview_name">Name</string>
+    <string name="reminders_listview_date_amd_time">Reminder Date and Time</string>
+
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="set_content_name">Name</string>
+    <string name="set_date_button">Set Date</string>
+    <string name="set_time_button">Set Time</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+</resources>

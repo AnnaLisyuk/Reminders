@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/reminderContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/reminderButton"
+        android:layout_toStartOf="@+id/reminderButton"
+        android:hint="@string/reminders_listview_name"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/reminderButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/reminderContentTextView"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/ic_more_vert_black_16dp" />
+
+    <TextView
+        android:id="@+id/reminderDateAndTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reminderContentTextView"
+        android:layout_alignStart="@+id/reminderContentTextView"
+        android:layout_below="@+id/reminderContentTextView"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/reminders_listview_date_amd_time"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/reminderIdTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/reminderDateAndTimeTextView"
+        android:layout_alignEnd="@+id/reminderButton"
+        android:layout_alignTop="@+id/reminderDateAndTimeTextView"
+        android:layout_toEndOf="@+id/reminderDateAndTimeTextView"
+        android:layout_toStartOf="@+id/reminderDateAndTimeTextView"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
